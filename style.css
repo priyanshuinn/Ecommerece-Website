@@ -135,3 +135,11 @@ h4{
 .rating .fa{
     color: #eeb20c;
 }
+
+
+
+.offer{
+    background: radial-gradient(#fff,#ffd6d6);
+    margin-top: 80px;
+    padding: 30px 0;
+}
