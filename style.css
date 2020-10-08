@@ -90,3 +90,48 @@ p{
 .col-3 img{
     width: 100%;
 }
+.col-4{
+    flex-basis: 25%;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+    transition-delay: 0.01s;
+}
+.col-4 img{
+    width: 100%;
+
+}
+
+.col-4:hover{
+    transform: scale(1.01);
+    box-shadow: 0px 5px 10px 3px rgb(167, 157, 157);
+}
+
+.title{
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color:#555;
+}
+.title::after{
+    content: "";
+    background:#ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+h4{
+    color:#555;
+    font-weight: normal;
+}
+.col-4 p{
+    font-size: 14px;
+}
+.rating .fa{
+    color: #eeb20c;
+}
