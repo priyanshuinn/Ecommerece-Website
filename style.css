@@ -68,7 +68,7 @@ p {
 }
 .header {
   background: radial-gradient(#fff, #ffd6d6);
-  height: 100vh;
+  height: 100%;
 }
 .header .row {
   margin-top: 70px;
@@ -274,7 +274,8 @@ ul {
     position: absolute;
     top: 70px;
     left: 0;
-    background: #333333;
+    background: #9c1c0b;
+    opacity:0.8;
     width: 100%;
     overflow: hidden;
     transition: max-height 0.3s;
